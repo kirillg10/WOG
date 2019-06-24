@@ -1,7 +1,7 @@
 version: '3'
 services:
   web:
-    build: .
+    #build: .
     ports:
       - "5000:8777"
     image: kirillg10/score-server
