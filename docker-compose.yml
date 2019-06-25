@@ -1,9 +1,12 @@
 version: '3'
 services:
   web:
-    build: .
+    #build: .
     ports:
-      - "5000:8777"
+      - "8777:5000"
     image: kirillg10/score-server
 volumes:
-  - ${PWD}/scores.txt:/scores.txt
+  - ${PWD}:/scores
+
+volumes:
+  scores:
