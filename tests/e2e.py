@@ -1,7 +1,7 @@
 from selenium import webdriver
 import os
 
-application_url = "localhost:5000"
+application_url = "localhost:8777"
 driver_path = "/Users/kiril/Downloads/chromedriver_75"
 
 
